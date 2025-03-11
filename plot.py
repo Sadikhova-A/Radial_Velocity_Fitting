@@ -4,10 +4,7 @@ import pandas as pd
 from One_planet_fitting import fit
 
 # Loading Data Set
-data = pd.read_csv('rv_data_1.csv')
-
-# Periods in the data
-periods = [25]
+data = pd.read_csv('rv_data_3.csv')
 
 # Set Variables
 time = np.array(data.t)
