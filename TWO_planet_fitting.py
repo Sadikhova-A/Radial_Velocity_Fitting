@@ -24,7 +24,7 @@ def res(var, t, vr, err):
     obj = K1 * np.sin(2 * np.pi * t / P1 + phi1) + K2 * np.cos(2 * np.pi * t / P2 + phi2)
 
     # Computing Residuals
-    return (obj - vr)
+    return (obj - vr)/err
 
 
 # Guess initial variables
